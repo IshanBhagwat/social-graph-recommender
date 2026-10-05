@@ -27,3 +27,7 @@ python pages_you_might_like.py
 - Writing clean, dependency-free Python for data processing
 - Implementing basic collaborative filtering from scratch
 - Structuring and deduplicating real-world-style messy JSON data
+
+# social-graph-recommender
+A pure-Python social network analytics project: cleans messy user data and builds two recommendation features  "People You May Know" and "Pages You Might Like"  using collaborative filtering logic, no external libraries.
+
