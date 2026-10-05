@@ -16,18 +16,22 @@ Might Like" using collaborative filtering logic, no external libraries.
 Python (built using only core/built-in modules, like `json`)
 
 ## How to Run
-\`\`\`bash
-python load_data.py
-python clean_data.py
-python people_you_may_know.py
-python pages_you_might_like.py
-\`\`\`
+1. Clone the repository
+```bash
+   git clone https://github.com/IshanBhagwat/social-graph-recommender.git
+   cd social-graph-recommender
+```
+
+2. Run the scripts in order
+```bash
+   python load_data.py
+   python clean_data.py
+   python people_you_may_know.py
+   python pages_you_might_like.py
+```
 
 ## What I Learned
 - Writing clean, dependency-free Python for data processing
 - Implementing basic collaborative filtering from scratch
 - Structuring and deduplicating real-world-style messy JSON data
-
-# social-graph-recommender
-A pure-Python social network analytics project: cleans messy user data and builds two recommendation features  "People You May Know" and "Pages You Might Like"  using collaborative filtering logic, no external libraries.
 
